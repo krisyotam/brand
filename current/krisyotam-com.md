@@ -16,7 +16,7 @@ sources:
   - .agents/AGENTS.md
 ---
 
-# krisyotam.com — current design system
+# krisyotam.com - current design system
 
 This document describes **how the live main site actually works**, not a wishlist. Agents building or restyling UI for krisyotam.com must treat this as authority over generic model defaults. When this conflicts with root `design.md`, prefer this file for site-local work and propose kit changes separately.
 
@@ -131,7 +131,7 @@ Shells are `width: min(100%, var(--shell-measure))`, centered, with inline gutte
 
 From `default.css` header:
 
-> "100 Whites · 100 Blacks" — pure neutral (0° 0%), matte, zen.  
+> "100 Whites · 100 Blacks" - pure neutral (0° 0%), matte, zen.  
 > 12 pastel hues × 7 steps. Paper-like surfaces, suckless minimalism, Japanese tonal naming. All HSL. Zero hue. Zero saturation. Just lightness.
 
 ### 100 Whites (light surface ladder, selected)
@@ -164,7 +164,7 @@ Full ladder: `src/app/styles/themes/default.css`.
 | `--black-kurogane` | 17% | black iron |
 | `--black-oboro` | 44% | hazy moon |
 
-### Semantic tokens — light
+### Semantic tokens - light
 
 | Token | Value | Role |
 |-------|-------|------|
@@ -187,7 +187,7 @@ Full ladder: `src/app/styles/themes/default.css`.
 | `--link` | `rgba(10, 132, 255, 1)` | iOS systemBlue |
 | `--link-visited` | `#af52de` | iOS systemPurple |
 
-### Semantic tokens — dark (`.dark`, `[data-theme="dark"]`)
+### Semantic tokens - dark (`.dark`, `[data-theme="dark"]`)
 
 | Token | Value |
 |-------|-------|
@@ -347,8 +347,8 @@ Sans (IBM Plex) for nav, buttons, forms, tracking chrome. Keep peer labels equal
 
 Two table traditions:
 
-1. **UI primitive** `components/ui/table.tsx` — shadcn-like bare table.
-2. **Content table** `components/content/table.tsx` — variants `default` | `minimal`, `YYYY.MM.DD` dates, row hover `secondary/50`, optional sound ticks, clickable rows.
+1. **UI primitive** `components/ui/table.tsx` - shadcn-like bare table.
+2. **Content table** `components/content/table.tsx` - variants `default` | `minimal`, `YYYY.MM.DD` dates, row hover `secondary/50`, optional sound ticks, clickable rows.
 
 Prefer consolidating new list UIs onto one of these rather than a third.
 

@@ -15,7 +15,7 @@
 ---
 version: alpha
 name: openai-brand-surface-analysis
-description: Research synthesis of OpenAI's public brand and product surfaces — calm near-monochrome system, OpenAI Sans wordmark discipline, generous white space, editorial restraint, soft greys, rare teal/black depth, system-native product UI for ChatGPT.
+description: Research synthesis of OpenAI's public brand and product surfaces - calm near-monochrome system, OpenAI Sans wordmark discipline, generous white space, editorial restraint, soft greys, rare teal/black depth, system-native product UI for ChatGPT.
 ---
 
 # OpenAI design research

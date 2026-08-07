@@ -18,7 +18,7 @@ sources:
   - README.md
 ---
 
-# photos.krisyotam.com — current design system
+# photos.krisyotam.com - current design system
 
 Ground truth for the photo archive. The product is a **masonry visual archive** with a profile-card gallery picker, infinite-ish loading, and a high-performance lightbox. The image is the design. Chrome exists only to choose galleries, open photos, and get out of the way.
 
@@ -222,7 +222,7 @@ Used for layout shifts where portrait vs landscape monitors matter.
 | `all` | Long-form `ABOUT_DESCRIPTION` constant in `index.tsx` |
 | Parent with subs | Template listing child gallery names |
 | Leaf with DB blurb | `gallery_descriptions` table |
-| Leaf without blurb | `"{name} — {n} images."` |
+| Leaf without blurb | `"{name} - {n} images."` |
 
 ## Lightbox / modal system
 

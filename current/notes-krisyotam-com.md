@@ -11,7 +11,7 @@ sources:
   - process.md / README (product intent)
 ---
 
-# notes.krisyotam.com — current design system
+# notes.krisyotam.com - current design system
 
 Ground truth for the personal knowledge base. The defining interaction is **Andy Matuschak-style stacked panes**: horizontal scrolling columns that stick and obscure each other as the stack grows. Design decisions optimize for multi-note reading, link previews, backlinks, and bibliography, not for a marketing homepage.
 
